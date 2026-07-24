@@ -5,7 +5,7 @@ export const dashboards: Dashboard[] = [
   {
     id: 'b2b-helix',
     name: 'B2B Helix',
-    url: 'https://app.powerbi.com/links/qWftYpVse_?ctid=50346803-3299-4314-bb54-e86716cc07b3&pbi_source=linkShare',
+    url: 'https://app.powerbi.com/reportEmbed?reportId=2e1a8b49-0bbc-4fa9-a3a9-4645f5804db7&autoAuth=true&ctid=50346803-3299-4314-bb54-e86716cc07b3',
     contentUrl: 'https://app.powerbi.com/reportEmbed?reportId=2e1a8b49-0bbc-4fa9-a3a9-4645f5804db7&autoAuth=true&ctid=50346803-3299-4314-bb54-e86716cc07b3',
     shareUrl: 'https://app.powerbi.com/links/qWftYpVse_?ctid=50346803-3299-4314-bb54-e86716cc07b3&pbi_source=linkShare',
     group: 'monitoramento',
