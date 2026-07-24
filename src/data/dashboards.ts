@@ -5,9 +5,9 @@ export const dashboards: Dashboard[] = [
   {
     id: 'b2b-helix',
     name: 'B2B Helix',
-    url: 'https://app.powerbi.com/links/qWftYpVse_?ctid=50346803-3299-4314-bb54-e86716cc07b3&pbi_source=linkShare&bookmarkGuid=e228da86-2ef1-4d96-b6ac-70183d00b4ff',
+    url: 'https://app.powerbi.com/links/qWftYpVse_?ctid=50346803-3299-4314-bb54-e86716cc07b3&pbi_source=linkShare',
     contentUrl: 'https://app.powerbi.com/reportEmbed?reportId=2e1a8b49-0bbc-4fa9-a3a9-4645f5804db7&autoAuth=true&ctid=50346803-3299-4314-bb54-e86716cc07b3',
-    shareUrl: 'https://app.powerbi.com/links/qWftYpVse_?ctid=50346803-3299-4314-bb54-e86716cc07b3&pbi_source=linkShare&bookmarkGuid=e228da86-2ef1-4d96-b6ac-70183d00b4ff',
+    shareUrl: 'https://app.powerbi.com/links/qWftYpVse_?ctid=50346803-3299-4314-bb54-e86716cc07b3&pbi_source=linkShare',
     group: 'monitoramento',
     description: 'Monitoramento de clientes B2B via plataforma Helix',
   },
