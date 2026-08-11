@@ -38,6 +38,15 @@ export const dashboards: Dashboard[] = [
     group: 'monitoramento',
     description: 'Painel de monitoramento do NMC em tempo real',
   },
+  {
+    id: 'usuarios-aniel',
+    name: 'Usuários Aniel',
+    url: 'https://app.powerbi.com/reportEmbed?reportId=fe5fcd37-b058-438a-b0d5-6f3b5a83617e&autoAuth=true&ctid=50346803-3299-4314-bb54-e86716cc07b3',
+    contentUrl: 'https://app.powerbi.com/reportEmbed?reportId=fe5fcd37-b058-438a-b0d5-6f3b5a83617e&autoAuth=true&ctid=50346803-3299-4314-bb54-e86716cc07b3',
+    shareUrl: 'https://app.powerbi.com/links/itYgfgd0QW?ctid=50346803-3299-4314-bb54-e86716cc07b3&pbi_source=linkShare',
+    group: 'monitoramento',
+    description: 'Gestão e monitoramento de Usuários Aniel',
+  },
   // Apoio
   {
     id: 'base-de-sites',
