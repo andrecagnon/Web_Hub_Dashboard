@@ -1,4 +1,4 @@
-import { Activity, Wrench } from 'lucide-react';
+import { Activity, Wrench, Briefcase } from 'lucide-react';
 import { Dashboard } from '@/types';
 import DashboardCard from './DashboardCard';
 
@@ -10,18 +10,20 @@ interface DashboardGroupProps {
 }
 
 const groupIconMap: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
-  monitoramento: Activity,
+  aniel: Activity,
+  b2b: Briefcase,
   apoio: Wrench,
 };
 
 const groupIconColorMap: Record<string, string> = {
-  monitoramento: 'text-[#F29F05] bg-[#F2C572]/30',
+  aniel: 'text-[#10B981] bg-[#10B981]/20',
+  b2b: 'text-[#3B82F6] bg-[#3B82F6]/20',
   apoio: 'text-[#BF1B1B] bg-[#D97373]/30',
 };
 
 export default function DashboardGroup({ groupId, groupName, dashboards, onView }: DashboardGroupProps) {
   const Icon = groupIconMap[groupId] ?? Activity;
-  const iconColor = groupIconColorMap[groupId] ?? 'text-[#F29F05] bg-[#F2C572]/30';
+  const iconColor = groupIconColorMap[groupId] ?? 'text-[#10B981] bg-[#10B981]/20';
 
   return (
     <section>

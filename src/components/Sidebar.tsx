@@ -1,4 +1,4 @@
-import { Activity, LayoutDashboard, Wrench } from 'lucide-react';
+import { Activity, LayoutDashboard, Wrench, Briefcase } from 'lucide-react';
 import { groups } from '@/data/dashboards';
 import { Group } from '@/types';
 
@@ -11,20 +11,24 @@ interface SidebarProps {
 const iconMap: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
   Activity,
   Wrench,
+  Briefcase,
 };
 
 const colorActiveMap: Record<string, string> = {
-  monitoramento: 'border-[#F2C572]/40',
+  aniel: 'border-[#10B981]/40',
+  b2b: 'border-[#3B82F6]/40',
   apoio: 'border-[#D97373]/40',
 };
 
 const colorActiveBg: Record<string, string> = {
-  monitoramento: 'bg-[#F29F05]/10 text-[#F29F05]',
+  aniel: 'bg-[#10B981]/10 text-[#10B981]',
+  b2b: 'bg-[#3B82F6]/10 text-[#3B82F6]',
   apoio: 'bg-[#BF1B1B]/10 text-[#BF1B1B]',
 };
 
 const colorDotMap: Record<string, string> = {
-  monitoramento: 'bg-[#F29F05]',
+  aniel: 'bg-[#10B981]',
+  b2b: 'bg-[#3B82F6]',
   apoio: 'bg-[#BF1B1B]',
 };
 

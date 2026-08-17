@@ -7,7 +7,8 @@ interface DashboardCardProps {
 }
 
 const groupPreviewBg: Record<string, string> = {
-  monitoramento: 'bg-[#F2C572]/20 border-[#F29F05]/20',
+  aniel: 'bg-[#10B981]/20 border-[#10B981]/20',
+  b2b: 'bg-[#3B82F6]/20 border-[#3B82F6]/20',
   apoio: 'bg-[#D97373]/20 border-[#BF1B1B]/20',
 };
 
@@ -30,7 +31,7 @@ function PowerBIIcon({ className }: { className?: string }) {
 }
 
 export default function DashboardCard({ dashboard, onView }: DashboardCardProps) {
-  const previewBg = groupPreviewBg[dashboard.group] ?? groupPreviewBg['monitoramento'];
+  const previewBg = groupPreviewBg[dashboard.group] ?? groupPreviewBg['aniel'];
 
   return (
     <div className="bg-white rounded-xl border border-[#F2F2F2] shadow-sm hover:shadow-md transition-all duration-200 hover:-translate-y-0.5 flex flex-col overflow-hidden">
